@@ -2,6 +2,6 @@
   "name": "reflow-root",
   "private": true,
   "scripts": {
-    "build": "node api.js && cd reflow-app && npm install && npm run build"
+    "build": "node init && cd reflow-app && npm install && npm run build"
   }
 }
